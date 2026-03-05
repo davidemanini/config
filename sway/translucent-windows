@@ -1,0 +1,6 @@
+client.focused #00000000 #bc085930 #FFFFFFFF #2e9ef4 #00000000
+client.focused_tab_title #00000000 #bc085930 #FFFFFFFF #00000000 #00000000
+client.unfocused #00000000 #19197030 #FFFFFFFF #00000000 #00000000
+client.focused_inactive #00000000 #00000000 #FFFFFFFF #00000000 #00000000
+client.urgent #00000000 #FF0000FF #FFFFFFFF #00000000 #00000000
+exec exec bash -c "killall swayfocus >& /dev/null || exec /home/davide/.local/share/cargo/bin/swayfocus"

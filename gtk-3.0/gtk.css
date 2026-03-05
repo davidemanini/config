@@ -1,0 +1,16 @@
+/*@import url("/usr/share/themes/DarkCold/gtk-3.0/gtk.css");*/
+
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");/**/
+
+/*@import url("resource:///org/gtk/libgtk/theme/HighContrast/gtk-contained-inverse.css");*/
+/*@define-color theme_base_color #232729;*/
+
+*{
+    font-family: "Latin Modern Roman Caps";
+/*    color: #0f0;*/
+}
+
+/*searchbar{
+	color: #fff;
+}*/
+@import 'colors.css';
