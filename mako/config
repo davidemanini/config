@@ -1,0 +1,13 @@
+
+on-button-middle=dismiss
+layer=overlay
+font=LatinModernSans 12
+background-color=#202020
+default-timeout=10000
+width=400
+margin=10
+padding=12
+outer-margin=2
+border-color=#606060
+border-radius=10
+max-visible=20
