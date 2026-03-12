@@ -384,8 +384,8 @@ for_window [title="Firefox - Choose User Profile"] floating enable
 for_window [title="Mozilla Firefox"] layout tabbed
 
 
-for_window [title="Zoom Workplace"] floating enable
-for_window [class=".*zoom.*" title="Meeting"] floating enable
+#for_window [title="Zoom Workplace"] floating enable
+#for_window [class=".*zoom.*" title="Meeting"] floating enable
 
 
 # QR codes
