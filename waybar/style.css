@@ -399,3 +399,7 @@ menuitem:hover{
     font-weight: bold;
     font-family: LatinModernRoman, FontAwesome, Roboto, Helvetica, Arial, sans-serif;
 }
+
+#custom-voxtype {
+    padding-bottom: 8px;
+}

@@ -325,6 +325,13 @@ bindsym $mod+Shift+Ctrl+Up seat - cursor move 0 -11
 bindsym $mod+Shift+Ctrl+Down seat - cursor move 0 +11
 
 
+### Push-to-talk: hold $mod+v to record, release to transcribe
+set $voxtype /home/davide/bin/voxtype
+#include ~/.config/sway/conf.d/*.conf
+bindsym $mod+o exec $voxtype record start
+bindsym --release $mod+o exec $voxtype record stop
+
+
 ### Basic services
 
 exec exec nm-applet

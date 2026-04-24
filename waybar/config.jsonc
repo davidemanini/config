@@ -19,6 +19,7 @@
     ],
     "modules-right": [
         "tray",
+        "custom/voxtype",
 //        "bluetooth",
 //        "mpd",
 //        "idle_inhibitor",
@@ -129,6 +130,13 @@
     "tray": {
         "icon-size": 21,
         "spacing": 10
+    },
+    "custom/voxtype": {
+	 "exec": "/home/davide/bin/voxtype status --follow --format json --extended",
+    	 "return-type": "json",
+	 "format": "{}",
+         "tooltip": true,
+	 "on-click": "systemctl --user restart voxtype"
     },
     "clock": {
         // "timezone": "America/New_York",
